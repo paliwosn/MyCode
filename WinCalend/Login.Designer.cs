@@ -115,6 +115,7 @@
             this.loginField.Name = "loginField";
             this.loginField.Size = new System.Drawing.Size(260, 63);
             this.loginField.TabIndex = 2;
+            this.loginField.TextChanged += new System.EventHandler(this.loginField_TextChanged);
             // 
             // pictureBox1
             // 
