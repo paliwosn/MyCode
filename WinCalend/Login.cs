@@ -97,5 +97,10 @@ namespace WinCalend
                 MessageBox.Show("No");
 
         }
+
+        private void loginField_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
